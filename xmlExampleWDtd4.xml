@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE video_games [
+<!ELEMENT video_games (game)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+
+]>
+<video_games>
+	<game id ="101">
+		<title>Call of Duty</title>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game id ="102">
+		<title>Fallout</title>
+		<genre>Shooter/Survival</genre>
+		<rating>M</rating>
+	</game>
+</video_games>

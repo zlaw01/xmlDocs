@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE service_providers [
+<!ELEMENT service_providers (comcast,verizon)>
+<!ELEMENT comcast (areas,price)>
+<!ELEMENT verizon (areas,price)>
+<!ELEMENT areas (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<service_providers>
+	<comcast>
+		<areas>United States/Canada</areas>
+		<price>$99.00 USD/Month</price>
+	</comcast>
+	<verizon>
+		<areas>United States</areas>
+		<price>$109.00 USD/month</price>
+	</verizon>
+</service_providers>

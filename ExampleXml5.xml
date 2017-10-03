@@ -1,0 +1,12 @@
+<xml version="8.0" encoding="UTF-8" standalone="no">
+
+<service_providers>
+	<comcast>
+		<areas>United States/Canada</areas>
+		<price>$99.00 USD/Month</price>
+	</comcast>
+	<verizon>
+		<areas>United States</areas>
+		<price>$109.00 USD/month</price>
+	</verizon>
+</service_providers>

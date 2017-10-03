@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE workout [
+<!ELEMENT workout (monday,wednesday,friday)> 
+<!ELEMENT monday (chest)> 
+<!ELEMENT wednesday (back)> 
+<!ELEMENT friday (legs)> 
+<!ELEMENT chest (#PCDATA)> 
+<!ELEMENT back (#PCDATA)> 
+<!ELEMENT legs (#PCDATA)> ]> 
+<workout> 
+<monday>
+  <chest>
+    Flat Bench
+    Incline Bench
+    Dumbbell Flies
+  </chest>
+</monday>
+<wednesday>
+  <back>
+    Deadlift
+    BentRow
+    Pulldown
+  </back>
+</wednesday>
+<friday>
+  <legs>
+    Squat
+    Leg Press
+    Lunge
+  </legs>
+</friday>
+</workout>

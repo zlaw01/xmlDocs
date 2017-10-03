@@ -1,0 +1,14 @@
+<xml version="8.0" encoding="UTF-8" standalone="no">
+
+<video_games>
+	<game id ="101">
+		<title>Call of Duty</title>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game id ="102">
+		<title>Fallout</title>
+		<genre>Shooter/Survival</genre>
+		<rating>M</rating>
+	</game>
+</video_games>

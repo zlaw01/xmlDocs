@@ -1,0 +1,21 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="service_providers" type="service_providersType"/>
+  <xs:complexType name="comcastType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="areas"/>
+      <xs:element type="xs:string" name="price"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="verizonType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="areas"/>
+      <xs:element type="xs:string" name="price"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="service_providersType">
+    <xs:sequence>
+      <xs:element type="comcastType" name="comcast"/>
+      <xs:element type="verizonType" name="verizon"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
